@@ -643,6 +643,18 @@ int getCost(int cardNumber)
   return -1;
 }
 
+int adventurerEffect(int currentPlayer, struct gameState *state, int drawntreasure, int cardDrawn) {
+
+	printf("drawntreasure: %d", drawntreasure);	
+//	while (*drawntreasure < 2)
+
+	return 0;
+}
+
+
+
+
+
 int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
 {
   int i;
@@ -667,6 +679,10 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   switch( card ) 
     {
     case adventurer:
+
+	adventurerEffect(currentPlayer, state, drawntreasure, cardDrawn);
+
+
       while(drawntreasure<2){
 	if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
 	  shuffle(currentPlayer, state);
