@@ -23,7 +23,12 @@
 int main2(int argc, char *argv[]) {
 	//Default cards, as defined in playDom
 	int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse, sea_hag, tribute, smithy};
+
+	printf("before struct instance\n");
 	struct gameState g;
+
+	printf("before initialize Game\n");
+
 	initializeGame(2,k,1,&g);
 	printf ("SUCCESSFUL INIT\n");
 	getchar();
