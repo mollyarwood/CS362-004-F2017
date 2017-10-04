@@ -247,6 +247,9 @@ int playCard(int handPos, int choice1, int choice2, int choice3, struct gameStat
 	
   //get card played
   card = handCard(handPos, state);
+
+  printf("card: %d\n", card);
+
 	
   //check if selected card is an action
   if ( card < adventurer || card > treasure_map )
@@ -650,7 +653,7 @@ int getCost(int cardNumber)
  * and moved it into a standalone function.
 ************************************************/
 
-void adventurerEffect(int currentPlayer, struct gameState *state, int drawntreasure, int cardDrawn, int *temphand) {
+int adventurerEffect(int currentPlayer, struct gameState *state, int drawntreasure, int cardDrawn, int *temphand) {
 
 	int z = 0;
 
@@ -660,7 +663,7 @@ void adventurerEffect(int currentPlayer, struct gameState *state, int drawntreas
 		}
 		drawCard(currentPlayer, state);
 		cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
-		if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+		if (cardDrawn = copper || cardDrawn == silver || cardDrawn == gold)
 	  		drawntreasure++;
 		else{
 	  		temphand[z]=cardDrawn;
@@ -674,7 +677,7 @@ void adventurerEffect(int currentPlayer, struct gameState *state, int drawntreas
 		z=z-1;
       }
 
-	return;
+	return 0;
 }
 
 
@@ -684,11 +687,11 @@ void adventurerEffect(int currentPlayer, struct gameState *state, int drawntreas
  * by Molly Arwood. Took code from switch case
  * and moved it into a standalone function.
 ************************************************/
-void smithyEffect(int currentPlayer, struct gameState *state, int handPos) {
+int smithyEffect(int currentPlayer, struct gameState *state, int handPos) {
 
       //+3 Cards
       int i;
-      for (i = 0; i < 3; i++)
+      for (i = 0; i <= 3; i++)
 	{
 	  drawCard(currentPlayer, state);
 	}
@@ -696,7 +699,7 @@ void smithyEffect(int currentPlayer, struct gameState *state, int handPos) {
       //discard card from hand
       discardCard(handPos, currentPlayer, state, 0);
 
-      return;
+      return 0;
 }
 
 
@@ -705,18 +708,99 @@ void smithyEffect(int currentPlayer, struct gameState *state, int handPos) {
  * by Molly Arwood. Took code from switch case
  * and moved it into a standalone function.
 ************************************************/
-void villageEffect(int currentPlayer, struct gameState *state, int handPos) {
+int villageEffect(int currentPlayer, struct gameState *state, int handPos) {
 
       //+1 Card
       drawCard(currentPlayer, state);
 			
       //+2 Actions
-      state->numActions = state->numActions + 2;
+      state->numActions = 2;
 			
       //discard played card from hand
       discardCard(handPos, currentPlayer, state, 0);
 
-      return;
+      return 0;
+}
+
+
+
+/************************************************
+ * new mineEffect function implemented
+ * by Molly Arwood. Took code from switch case
+ * and moved it into a standalone function.
+************************************************/
+int mineEffect (int currentPlayer, struct gameState *state, int choice1, int choice2, int handPos) {
+
+      int i;
+      int j;
+      j = state->hand[currentPlayer][choice2];  //store card we will trash
+
+      if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold)
+	{
+	  return -1;
+	}
+		
+      if (choice2 > treasure_map && choice2 < curse)
+	{
+	  return -1;
+	}
+
+      if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
+	{
+	  return -1;
+	}
+
+      gainCard(choice2, state, 2, currentPlayer);
+
+      //discard card from hand
+      discardCard(handPos, currentPlayer, state, 0);
+
+      //discard trashed card
+      for (i = 0; i < state->handCount[currentPlayer]; i++)
+	{
+	  if (state->hand[currentPlayer][i] == j)
+	    {
+	      discardCard(i, currentPlayer, state, 0);			
+	      break;
+	    }
+	}
+			
+      return 0;
+}
+
+
+
+/************************************************
+ * new councilRoomEffect function implemented
+ * by Molly Arwood. Took code from switch case
+ * and moved it into a standalone function.
+************************************************/
+int councilRoomEffect(int currentPlayer, struct gameState *state, int handPos) {
+
+      int i;
+
+      //+4 Cards
+      for (i = 0; i < 4; i++)
+	{
+	  drawCard(currentPlayer, state);
+	}
+			
+      //+1 Buy
+      state->numBuys++;
+
+      //Each other player draws a card
+      for (i = 0; i < state->numPlayers; i++)
+	{
+	  if ( i != currentPlayer )
+	    {
+	      drawCard(i, state);
+	    }
+	}
+			
+      //put played card in played card pile
+      discardCard(handPos, currentPlayer, state, 0);
+		
+      return 0;	
 }
 
 
@@ -746,32 +830,11 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   switch( card ) 
     {
     case adventurer:
-	adventurerEffect(currentPlayer, state, drawntreasure, cardDrawn, temphand);
+	return adventurerEffect(currentPlayer, state, drawntreasure, cardDrawn, temphand);
 			
     case council_room:
-      //+4 Cards
-      for (i = 0; i < 4; i++)
-	{
-	  drawCard(currentPlayer, state);
-	}
-			
-      //+1 Buy
-      state->numBuys++;
-			
-      //Each other player draws a card
-      for (i = 0; i < state->numPlayers; i++)
-	{
-	  if ( i != currentPlayer )
-	    {
-	      drawCard(i, state);
-	    }
-	}
-			
-      //put played card in played card pile
-      discardCard(handPos, currentPlayer, state, 0);
-			
-      return 0;
-			
+       return councilRoomEffect(currentPlayer, state, handPos);
+
     case feast:
       //gain card with cost up to 5
       //Backup hand
@@ -828,42 +891,10 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
     case gardens:
       return -1;
 			
-    case mine:
-      j = state->hand[currentPlayer][choice1];  //store card we will trash
-
-      if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold)
-	{
-	  return -1;
-	}
-		
-      if (choice2 > treasure_map || choice2 < curse)
-	{
-	  return -1;
-	}
-
-      if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
-	{
-	  return -1;
-	}
-
-      gainCard(choice2, state, 2, currentPlayer);
-
-      //discard card from hand
-      discardCard(handPos, currentPlayer, state, 0);
-
-      //discard trashed card
-      for (i = 0; i < state->handCount[currentPlayer]; i++)
-	{
-	  if (state->hand[currentPlayer][i] == j)
-	    {
-	      discardCard(i, currentPlayer, state, 0);			
-	      break;
-	    }
-	}
-			
-      return 0;
-			
-    case remodel:
+    case mine: 
+      return mineEffect(currentPlayer, state, choice1, choice2, handPos);
+ 
+   case remodel:
       j = state->hand[currentPlayer][choice1];  //store card we will trash
 
       if ( (getCost(state->hand[currentPlayer][choice1]) + 2) > getCost(choice2) )
@@ -890,24 +921,10 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case smithy:
-
-      smithyEffect(currentPlayer, state, handPos);
-      return 0;
+      return smithyEffect(currentPlayer, state, handPos);
 		
     case village:
-
-	villageEffect(currentPlayer, state, handPos);
-
-
-      //+1 Card
-      drawCard(currentPlayer, state);
-			
-      //+2 Actions
-      state->numActions = state->numActions + 2;
-			
-      //discard played card from hand
-      discardCard(handPos, currentPlayer, state, 0);
-      return 0;
+      return villageEffect(currentPlayer, state, handPos);
 		
     case baron:
       state->numBuys++;//Increase buys by 1!

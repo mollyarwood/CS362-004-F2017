@@ -13,8 +13,11 @@ int cardEffect(int card, int choice1, int choice2, int choice3,
 	       struct gameState *state, int handPos, int *bonus);
 
 
-void adventurerEffect(int, struct gameState *,  int, int, int *);
-void smithyEffect(int, struct gameState *, int);
-void villageEffect(int, struct gameState *, int);
+int adventurerEffect(int, struct gameState *,  int, int, int *);
+int smithyEffect(int, struct gameState *, int);
+int villageEffect(int, struct gameState *, int);
+int mineEffect(int, struct gameState *, int, int, int);
+int councilRoomEffect(int, struct gameState *, int);
+
 
 #endif
