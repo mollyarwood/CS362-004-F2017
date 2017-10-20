@@ -106,24 +106,24 @@ int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed,
   for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
     {
       for (j = 0; j < 10; j++)           		//loop chosen cards
-	{
-	  if (kingdomCards[j] == i)
-	    {
-	      //check if card is a 'Victory' Kingdom card
-	      if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
-		{
-		  if (numPlayers == 2){ 
-		    state->supplyCount[i] = 8; 
-		  }
-		  else{ state->supplyCount[i] = 12; }
-		}
-	      else
-		{
-		  state->supplyCount[i] = 10;
-		}
-	      break;
-	    }
-	  else    //card is not in the set choosen for the game
+	   {
+	       if (kingdomCards[j] == i)
+	       {
+	         //check if card is a 'Victory' Kingdom card
+	         if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
+		       {
+		          if (numPlayers == 2){ 
+		            state->supplyCount[i] = 8; 
+		          }
+		          else{ state->supplyCount[i] = 12; }
+		        }
+	         else
+		       {
+		          state->supplyCount[i] = 10;
+		       }
+	         break;
+	       }
+	    else    //card is not in the set choosen for the game
 	    {
 	      state->supplyCount[i] = -1;
 	    }
@@ -691,11 +691,10 @@ int smithyEffect(int currentPlayer, struct gameState *state, int handPos) {
 
       //+3 Cards
       int i;
-      for (i = 0; i <= 3; i++)
-	{
-	  drawCard(currentPlayer, state);
-	}
-				
+      for (i = 0; i <= 3; i++) {
+	       drawCard(currentPlayer, state);
+	    }
+
       //discard card from hand
       discardCard(handPos, currentPlayer, state, 0);
 
@@ -980,7 +979,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
     case great_hall:
       //+1 Card
       drawCard(currentPlayer, state);
-			
+
       //+1 Actions
       state->numActions++;
 			

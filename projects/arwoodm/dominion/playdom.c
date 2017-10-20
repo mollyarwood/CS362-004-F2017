@@ -21,6 +21,9 @@ int main (int argc, char** argv) {
   int numAdventurers = 0;
 
   while (!isGameOver(&G)) {
+
+    //Molly: figure out what the player has in their current hand & the positions of
+    //the smithy and adventurer cards (if any)
     money = 0;
     smithyPos = -1;
     adventurerPos = -1;
@@ -37,6 +40,8 @@ int main (int argc, char** argv) {
     adventurerPos = i;
     }
 
+
+    //Molly: first player's turn ("player 0")
     if (whoseTurn(&G) == 0) {
       if (smithyPos != -1) {
         printf("0: smithy played from position %d\n", smithyPos);
@@ -44,6 +49,9 @@ int main (int argc, char** argv) {
         printf("smithy played.\n");
         money = 0;
         i=0;
+
+        //Molly: recounts money after playing smithy and drawing cards.
+        //doesn't check action cards because you are out of actions for turn
         while(i<numHandCards(&G)){
           if (handCard(i, &G) == copper){
             playCard(i, -1, -1, -1, &G);
@@ -82,12 +90,17 @@ int main (int argc, char** argv) {
       printf("0: end turn\n");
       endTurn(&G);
     }
+
+    //Molly: second player's turn ("player 1")
     else {
       if (adventurerPos != -1) {
         printf("1: adventurer played from position %d\n", adventurerPos);
         playCard(adventurerPos, -1, -1, -1, &G);
         money = 0;
         i=0;
+
+        //Molly: recounts money after playing adventurer and drawing cards.
+        //doesn't check action cards because you are out of actions for turn
         while(i<numHandCards(&G)){
           if (handCard(i, &G) == copper){
             playCard(i, -1, -1, -1, &G);

@@ -1,0 +1,97 @@
+        -:    0:Source:unittest4.c
+        -:    0:Graph:unittest4.gcno
+        -:    0:Data:unittest4.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/************************************************
+        -:    2: * Name: Molly Arwood
+        -:    3: * Date: 10-11-17
+        -:    4: * Class: CS_362_SE2
+        -:    5: * unittest3.c - supplyCount Test
+        -:    6:************************************************/
+        -:    7:
+        -:    8:
+        -:    9:#include "dominion.h"
+        -:   10:#include "dominion_helpers.h"
+        -:   11:#include <string.h>
+        -:   12:#include <stdio.h>
+        -:   13:#include <assert.h>
+        -:   14:#include "rngs.h"
+        -:   15:#include <stdlib.h>
+        -:   16:#include <time.h>
+        -:   17:
+        -:   18://constants and prototypes
+        -:   19://void supplyCheck(int cardSupply[], int cardChosen[], struct gameState *G);
+        -:   20:void checkState(int stateReturned);
+        -:   21:
+        -:   22:
+function main called 1 returned 100% blocks executed 90%
+        1:   23:int main() {
+        -:   24:
+        -:   25:	/*********************************************
+        -:   26:	//Initial Setup
+        -:   27:	*********************************************/
+        -:   28:	struct gameState G;
+        1:   29:	srand(time(NULL));
+call    0 returned 100%
+call    1 returned 100%
+        1:   30:	int r = rand() % 100000000;
+call    0 returned 100%
+        1:   31:	int numPlayers = 2;
+        1:   32:	int i = 0;
+        1:   33:	int k[10] = {adventurer, great_hall, council_room, village, minion, mine, 
+        -:   34:		   		cutpurse, sea_hag, treasure_map, smithy};
+        -:   35:
+        -:   36:	//initialize game
+        1:   37:	initializeGame(numPlayers, k, r, &G);
+call    0 returned 100%
+        1:   38:	printf("\n\n-------------Testing supplyCheck --------------\n\n");
+call    0 returned 100%
+        -:   39:
+        -:   40:
+        -:   41:
+        -:   42:	/*********************************************
+        -:   43:	//variables setup for tests
+        -:   44:	*********************************************/
+        1:   45:	int cardChosen[5] = {0, 1, 4, 7, 26};
+        1:   46:	int randNums[5] = {4, 0, -1, 22, 100};
+        1:   47:	int currPlayer = whoseTurn(&G);
+call    0 returned 100%
+        -:   48:
+        -:   49:
+        -:   50:	/*********************************************
+        -:   51:	//Testing
+        -:   52:	*********************************************/
+        6:   53:	for (i = 0; i < sizeof(cardChosen) / sizeof(int); i++) {
+branch  0 taken 83%
+branch  1 taken 17% (fallthrough)
+        5:   54:		G.supplyCount[cardChosen[i]] = randNums[i];
+        -:   55:	}
+        -:   56:
+        -:   57:
+        6:   58:	for (i = 0; i < 5; i++) {
+branch  0 taken 83%
+branch  1 taken 17% (fallthrough)
+        5:   59:		if (randNums[i] == supplyCount(cardChosen[i], &G)) {
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0%
+        5:   60:			printf("PASSED: supply of %d card is same: %d to %d\n\n", cardChosen[i], randNums[i], supplyCount(cardChosen[i], &G));
+call    0 returned 100%
+call    1 returned 100%
+        -:   61:		}
+        -:   62:		else {
+    #####:   63:			printf("FAILED: supply of %d cards is not same: %d to %d \n\n", cardChosen[i], randNums[i], supplyCount(cardChosen[i], &G));
+call    0 never executed
+call    1 never executed
+        -:   64:		}
+        -:   65:	}
+        -:   66:
+        -:   67:
+        -:   68:
+        1:   69:	printf("\n\n");
+call    0 returned 100%
+        1:   70:	return 0;
+        -:   71:
+        -:   72:
+        -:   73:}
