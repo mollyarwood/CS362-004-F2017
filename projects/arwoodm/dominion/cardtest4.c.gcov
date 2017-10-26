@@ -27,7 +27,6 @@
         -:   22:
         -:   23:
         -:   24:
-function main called 1 returned 100% blocks executed 88%
         1:   25:int main() {
         -:   26:
         -:   27:	/*********************************************
@@ -36,10 +35,7 @@ function main called 1 returned 100% blocks executed 88%
         -:   30:	struct gameState G;
         -:   31:	struct gameState Gconst;
         1:   32:	srand(time(NULL));
-call    0 returned 100%
-call    1 returned 100%
         1:   33:	int r = rand() % 100000000;
-call    0 returned 100%
         1:   34:	int numPlayers = 2;
         1:   35:	int coin_bonus = 0;	
         1:   36:	int i = 0;
@@ -48,10 +44,8 @@ call    0 returned 100%
         -:   39:
         -:   40:	//initialize game
         1:   41:	initializeGame(numPlayers, k, r, &G);
-call    0 returned 100%
         1:   42:	memcpy(&Gconst, &G, sizeof(struct gameState));
         1:   43:	printf("\n\n-------------Testing Council Room--------------\n\n");
-call    0 returned 100%
         -:   44:
         -:   45:
         -:   46:
@@ -59,7 +53,6 @@ call    0 returned 100%
         -:   48:	//variables before council room played
         -:   49:	*********************************************/
         1:   50:	int currPlayer = whoseTurn(&G);
-call    0 returned 100%
         1:   51:	int numBuys = G.numBuys;
         1:   52:	int cardsInHand = G.handCount[currPlayer];
         1:   53:	int deckCount = G.deckCount[currPlayer];
@@ -68,7 +61,6 @@ call    0 returned 100%
         -:   56:
         -:   57:	//play great hall card
         1:   58:	cardEffect(council_room, -1, -1, -1, &G, 0, &coin_bonus);
-call    0 returned 100%
         -:   59:
         -:   60:
         -:   61:
@@ -77,58 +69,39 @@ call    0 returned 100%
         -:   64:	********************************************/
         -:   65:	//hand count decreases by 3 (one discarded, 4 drawn)
         1:   66:	if (G.handCount[currPlayer] == cardsInHand + 3) {
-branch  0 taken 100% (fallthrough)
-branch  1 taken 0%
         1:   67:		printf("PASSED: current hand count increased by 3 \n\n");
-call    0 returned 100%
         -:   68:	} 
         -:   69:	else {
     #####:   70:		printf("FAILED: current hand count increased by 3 \n\n");
-call    0 never executed
         -:   71:	}
         -:   72:
         -:   73:
         -:   74:	//deck count decreased by 4
         1:   75:	if (G.deckCount[currPlayer] == deckCount - 4) {
-branch  0 taken 100% (fallthrough)
-branch  1 taken 0%
         1:   76:		printf("PASSED: deck count decreased by 4\n\n");
-call    0 returned 100%
         -:   77:	}
         -:   78:	else {
     #####:   79:		printf("FAILED: deck count decreased by 4\n\n");
-call    0 never executed
         -:   80:	}
         -:   81:
         -:   82:
         -:   83:	//player's buys increased by one
         1:   84:	if (G.numBuys == numBuys + 1) {
-branch  0 taken 100% (fallthrough)
-branch  1 taken 0%
         1:   85:		printf("PASSED: number of abuys increased by 1\n\n");
-call    0 returned 100%
         -:   86:	}
         -:   87:	else {
     #####:   88:		printf("FAILED: dnumber of abuys increased by 1\n\n");
-call    0 never executed
         -:   89:	}
         -:   90:
         -:   91:
         -:   92:	//checking other player's state
         1:   93:	currPlayer = whoseTurn(&G) + 1;
-call    0 returned 100%
         -:   94:
         1:   95:	int flag2 = structComparer(&Gconst, &G, currPlayer);
-call    0 returned 100%
         1:   96:	if (flag2 == 1) {
-branch  0 taken 100% (fallthrough)
-branch  1 taken 0%
         1:   97:		printf("PASSED: other player's handCount increased by 1\n\n");
-call    0 returned 100%
         1:   98:		printf("PASSED: other player's deck decreased by 1\n\n");
-call    0 returned 100%
         1:   99:		printf("PASSED: other player's discard count unchanged\n\n");
-call    0 returned 100%
         -:  100:	}
         -:  101:
         -:  102:
@@ -138,7 +111,6 @@ call    0 returned 100%
         -:  106:
         -:  107:
         -:  108:
-function structComparer called 1 returned 100% blocks executed 56%
         1:  109:int structComparer(struct gameState *state1, struct gameState *state2, int player2) {
         1:  110:	int i = 0;
         1:  111:	int flag = 1;
@@ -146,31 +118,21 @@ function structComparer called 1 returned 100% blocks executed 56%
         -:  113:
         -:  114:	//handCount comparison
         1:  115:	if (state1->handCount[player2] == state2->handCount[player2]) {
-branch  0 taken 0% (fallthrough)
-branch  1 taken 100%
     #####:  116:		flag = 0;
     #####:  117:		printf("FAILED ohter player's handCount altered\n");
-call    0 never executed
         -:  118:	}
         -:  119:	
         -:  120:	//deck comparision
         1:  121:	if (state1->deckCount[player2] == state2->deckCount[player2]) {
-branch  0 taken 0% (fallthrough)
-branch  1 taken 100%
     #####:  122:		printf("state1: %d \t state2: %d \n", state1->deckCount[player2], state2->deckCount[player2]);
-call    0 never executed
     #####:  123:		flag = 0;
     #####:  124:		printf("FAILED: other player's deckCount altered\n");
-call    0 never executed
         -:  125:	}
         -:  126:
         -:  127:	//discard count
         1:  128:	if (state1->discardCount[player2] != state2->discardCount[player2]) {
-branch  0 taken 0% (fallthrough)
-branch  1 taken 100%
     #####:  129:		flag = 0;
     #####:  130:		printf("FAILED: other player's discardCount altered\n");
-call    0 never executed
         -:  131:	}
         -:  132:
         1:  133:	return flag;
