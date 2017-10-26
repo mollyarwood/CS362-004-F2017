@@ -1,0 +1,198 @@
+        -:    0:Source:randomtestadventurer.c
+        -:    0:Graph:randomtestadventurer.gcno
+        -:    0:Data:randomtestadventurer.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/************************************************
+        -:    2: * Name: Molly Arwood
+        -:    3: * Date: 10-25-17
+        -:    4: * Class: CS_362_SE2
+        -:    5: * randomtestcard1.c - Adventurer Test
+        -:    6:************************************************/
+        -:    7:
+        -:    8:
+        -:    9:#include "dominion.h"
+        -:   10:#include "dominion_helpers.h"
+        -:   11:#include <string.h>
+        -:   12:#include <stdio.h>
+        -:   13:#include <assert.h>
+        -:   14:#include "rngs.h"
+        -:   15:#include <stdlib.h>
+        -:   16:#include <time.h>
+        -:   17:#include <math.h>
+        -:   18:
+        -:   19://constants and prototypes
+        -:   20:#define TESTCARD = "Adventurer"
+        -:   21:#define ADDBUGS 0
+        -:   22:
+        -:   23:void checkResults(struct gameState *, struct gameState *, int *);
+        -:   24:void addbugs(int player, struct gameState *);
+        -:   25:
+        -:   26:
+        -:   27:
+        1:   28:int main() {
+        -:   29:
+        -:   30:	/*********************************************
+        -:   31:	//Initial Setup
+        -:   32:	*********************************************/
+        -:   33:	struct gameState G;
+        -:   34:	struct gameState Gconst;
+        1:   35:	srand(time(NULL));
+        1:   36:	int currPlayer = 0;
+        1:   37:	int coin_bonus = 0;	
+        1:   38:	int i = 0;
+        1:   39:	int j = 0;
+        1:   40:	int passed = 1;
+        1:   41:	int k[10] = {adventurer, gardens, council_room, village, minion, mine, 
+        -:   42:		   		cutpurse, sea_hag, tribute, smithy};
+        -:   43:
+        -:   44:
+        -:   45:	/*********************************************
+        -:   46:	//testing adventurer
+        -:   47:	*********************************************/
+        1:   48:	printf("\n\n-------------Testing Adventurer--------------\n\n");
+        -:   49:
+        -:   50:	//initialize game
+      501:   51:	for (i = 0; i < 500; i++) {
+ 13150500:   52:		for (j=0; j < sizeof(struct gameState); j++) {
+ 13150000:   53:			((char*)&G)[i] = floor(rand() % 256);
+        -:   54:		}
+        -:   55:
+        -:   56:		//player 1
+      500:   57:		G.whoseTurn = currPlayer;
+      500:   58:		G.handCount[currPlayer] = floor(rand() % 500);
+      500:   59:		G.deckCount[currPlayer] = floor(rand() % 500);
+      500:   60:		G.discardCount[currPlayer] = floor(rand() % 500);
+        -:   61:
+        -:   62:		//player 2
+      500:   63:		G.handCount[currPlayer + 1] = floor(rand() % 500);
+      500:   64:		G.deckCount[currPlayer + 1] = floor(rand() % 500);
+      500:   65:		G.discardCount[currPlayer + 1] = floor(rand() % 500);
+        -:   66:
+        -:   67:		//play adventurer card
+      500:   68:		memcpy(&Gconst, &G, sizeof(struct gameState));
+      500:   69:		cardEffect(adventurer, -1, -1, -1, &G, 0, &coin_bonus);
+        -:   70:
+        -:   71:		if (ADDBUGS) {
+        -:   72:
+        -:   73:			//direct bugs
+        -:   74:			addbugs(currPlayer, &G);
+        -:   75:
+        -:   76:			//side effect bugs
+        -:   77:			addbugs(currPlayer + 1, &G);
+        -:   78:		}
+        -:   79:
+      500:   80:		checkResults(&G, &Gconst, &passed);
+        -:   81:	}
+        -:   82:
+        1:   83:	if (passed) {
+    #####:   84:		printf("All Tests Passed \n\n");
+        -:   85:	}
+        -:   86:
+        -:   87:
+        1:   88:	return 0;
+        -:   89:}
+        -:   90:
+        -:   91:
+        -:   92:
+      500:   93:void checkResults(struct gameState *G, struct gameState *Gconst, int *passed) {
+        -:   94:
+      500:   95:	int currPlayer = whoseTurn(G);
+      500:   96:	int player2 = currPlayer + 1;
+      500:   97:	int initialTreasure = Gconst->supplyCount[4] + Gconst->supplyCount[5] + Gconst->supplyCount[6];
+      500:   98:	int victorySupply[3] = {Gconst->supplyCount[1], Gconst->supplyCount[2], Gconst->supplyCount[3]};
+        -:   99:	int kingdomSupply[20];
+        -:  100:	int i;
+    10500:  101:	for (i = 0; i < 20; i++) {
+    10000:  102:		kingdomSupply[i] = Gconst->supplyCount[i+7];
+        -:  103:	}
+        -:  104:
+        -:  105:
+        -:  106:
+        -:  107:	/**********************************
+        -:  108:	 *Direct Tests
+        -:  109:	 *********************************/
+        -:  110:
+        -:  111:	//hand count increase
+      500:  112:	if (G->handCount[currPlayer] != Gconst->handCount[currPlayer] + 2) {
+    #####:  113:		printf("FAILED: current hand count increase\n\n");
+    #####:  114:		*passed = 0;
+        -:  115:	} 
+        -:  116:
+        -:  117:
+        -:  118:	//current hand's money increase
+      500:  119:	int newTreasure = G->supplyCount[4] + G->supplyCount[5] + G->supplyCount[6];
+      500:  120:	if (initialTreasure <= newTreasure) {
+      500:  121:		printf("G supplyCount: %d \t Gconst: %d \n", newTreasure, initialTreasure);
+      500:  122:		printf("FAILED: current hand treasure differs from expected\n\n");
+      500:  123:		*passed = 0;
+        -:  124:	}
+        -:  125:
+        -:  126:
+        -:  127:	//deck count decrease
+      500:  128:	if ((G->deckCount[currPlayer] >= Gconst->deckCount[currPlayer]) && Gconst->deckCount[currPlayer] > 1) {
+    #####:  129:		printf("FAILED: deck count decrease test\n\n");
+    #####:  130:		*passed = 0;
+        -:  131:	}
+        -:  132:
+        -:  133:
+        -:  134:
+        -:  135:	//checking victory card pile
+     2000:  136:	for (i = 0; i < sizeof(victorySupply) / sizeof(int); i++) {
+     1500:  137:		if (victorySupply[i] != G->supplyCount[i+1]) {
+    #####:  138:			printf("FAILED: victory cards unchanged\n\n");
+    #####:  139:			*passed = 0;
+        -:  140:		}
+        -:  141:	}
+        -:  142:
+        -:  143:
+        -:  144:
+        -:  145:	//checking kingdom card pile
+    10500:  146:	for (i = 0; i < sizeof(kingdomSupply) / sizeof(int); i++) {
+    10000:  147:		if (kingdomSupply[i] != G->supplyCount[i+7]) {
+    #####:  148:			printf("FAILED: kingdom cards unchanged\n\n");
+    #####:  149:			*passed = 0;
+        -:  150:		}
+        -:  151:	}
+        -:  152:
+        -:  153:
+        -:  154:	/**********************************
+        -:  155:	 *Side Effect Tests
+        -:  156:	 *********************************/
+        -:  157:
+        -:  158:	//handCount comparison
+      500:  159:	if (G->handCount[player2] != Gconst->handCount[player2]) {
+    #####:  160:		printf("FAILED other player's handCount altered\n");
+    #####:  161:		*passed = 0;
+        -:  162:	}
+        -:  163:	
+        -:  164:	//deck comparision
+      500:  165:	if (G->deckCount[player2] != Gconst->deckCount[player2]) {
+    #####:  166:		printf("FAILED: other player's deckCount altered\n");
+    #####:  167:		*passed = 0;
+        -:  168:	}
+        -:  169:
+        -:  170:	//discard count
+      500:  171:	if (G->discardCount[player2] != Gconst->discardCount[player2]) {
+    #####:  172:		printf("FAILED: other player's discardCount altered\n");
+    #####:  173:		*passed = 0;
+        -:  174:	}
+        -:  175:
+      500:  176:}
+        -:  177:
+        -:  178:
+        -:  179:
+    #####:  180:void addbugs(int player, struct gameState *G) {
+        -:  181:
+        -:  182:	//victoryCard check
+    #####:  183:	G->supplyCount[1] = rand() % 10;
+        -:  184:
+        -:  185:	//handCount check
+    #####:  186:	G->handCount[player] = G->handCount[player] - 1;
+        -:  187:
+        -:  188:	//deckCount check
+    #####:  189:	G->deckCount[player] = G->deckCount[player] -5;
+        -:  190:
+    #####:  191:}
+        -:  192:
+        -:  193:

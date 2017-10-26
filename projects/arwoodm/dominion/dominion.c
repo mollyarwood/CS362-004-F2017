@@ -528,6 +528,7 @@ int getWinners(int players[MAX_PLAYERS], struct gameState *state) {
 int drawCard(int player, struct gameState *state)
 {	int count;
   int deckCounter;
+
   if (state->deckCount[player] <= 0){//Deck is empty
     
     //Step 1 Shuffle the discard pile back into a deck
@@ -568,6 +569,7 @@ int drawCard(int player, struct gameState *state)
   }
 
   else{
+
     int count = state->handCount[player];//Get current hand count for player
     int deckCounter;
     if (DEBUG){//Debug statements
@@ -783,22 +785,21 @@ int councilRoomEffect(int currentPlayer, struct gameState *state, int handPos) {
 	{
 	  drawCard(currentPlayer, state);
 	}
-			
+
       //+1 Buy
       state->numBuys++;
 
+
       //Each other player draws a card
-      for (i = 0; i < state->numPlayers; i++)
-	{
-	  if ( i != currentPlayer )
-	    {
-	      drawCard(i, state);
+      for (i = 0; i < state->numPlayers; i++) {
+	       if ( i != currentPlayer )
+         {
+	         drawCard(i, state);
+	       }
 	    }
-	}
 			
       //put played card in played card pile
       discardCard(handPos, currentPlayer, state, 0);
-		
       return 0;	
 }
 
@@ -1311,7 +1312,8 @@ int discardCard(int handPos, int currentPlayer, struct gameState *state, int tra
 	
   //set played card to -1
   state->hand[currentPlayer][handPos] = -1;
-	
+
+
   //remove card from player's hand
   if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
     {
