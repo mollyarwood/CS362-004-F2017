@@ -48,7 +48,7 @@ int main() {
 	printf("\n\n-------------Testing Council Room--------------\n\n");
 
 	//initialize game
-	for (i = 0; i < 11000; i++) {
+	for (i = 0; i < 20000; i++) {
 		for (j=0; j < sizeof(struct gameState); j++) {
 			((char*)&G)[i] = floor(rand() % 256);
 		}

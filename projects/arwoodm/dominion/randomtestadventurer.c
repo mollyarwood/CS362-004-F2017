@@ -53,6 +53,11 @@ int main() {
 			((char*)&G)[i] = floor(rand() % 256);
 		}
 
+		//General
+		G.supplyCount[4] = floor(rand() % 60);
+		G.supplyCount[5] = floor(rand() % 40);
+		G.supplyCount[6] = floor(rand() % 30);
+
 		//player 1
 		G.whoseTurn = currPlayer;
 		G.handCount[currPlayer] = floor(rand() % 500);

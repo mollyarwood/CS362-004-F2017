@@ -2,1508 +2,1508 @@
 
 -------------Testing Adventurer--------------
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 58 	 Gconst: 58 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 41 	 Gconst: 41 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 98 	 Gconst: 98 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 102 	 Gconst: 102 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 54 	 Gconst: 54 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 70 	 Gconst: 70 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 92 	 Gconst: 92 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 55 	 Gconst: 55 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 8 	 Gconst: 8 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 56 	 Gconst: 56 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 66 	 Gconst: 66 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 37 	 Gconst: 37 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 97 	 Gconst: 97 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 32 	 Gconst: 32 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 38 	 Gconst: 38 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 0 	 Gconst: 0 
+G supplyCount: 42 	 Gconst: 42 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 202 	 Gconst: 202 
+G supplyCount: 31 	 Gconst: 31 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 54986 	 Gconst: 54986 
+G supplyCount: 41 	 Gconst: 41 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 11982538 	 Gconst: 11982538 
+G supplyCount: 52 	 Gconst: 52 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -1581852982 	 Gconst: -1581852982 
+G supplyCount: 74 	 Gconst: 74 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -1581852789 	 Gconst: -1581852789 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -1581820533 	 Gconst: -1581820533 
+G supplyCount: 64 	 Gconst: 64 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -1570679413 	 Gconst: -1570679413 
+G supplyCount: 65 	 Gconst: 65 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 492918155 	 Gconst: 492918155 
+G supplyCount: 41 	 Gconst: 41 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 492918237 	 Gconst: 492918237 
+G supplyCount: 75 	 Gconst: 75 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 492960733 	 Gconst: 492960733 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: 507116509 	 Gconst: 507116509 
+G supplyCount: 96 	 Gconst: 96 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 35 	 Gconst: 35 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 94 	 Gconst: 94 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 72 	 Gconst: 72 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 98 	 Gconst: 98 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 116 	 Gconst: 116 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 87 	 Gconst: 87 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 73 	 Gconst: 73 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 72 	 Gconst: 72 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 87 	 Gconst: 87 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 52 	 Gconst: 52 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 77 	 Gconst: 77 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 30 	 Gconst: 30 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 72 	 Gconst: 72 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 46 	 Gconst: 46 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 111 	 Gconst: 111 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 32 	 Gconst: 32 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 86 	 Gconst: 86 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 60 	 Gconst: 60 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 98 	 Gconst: 98 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 83 	 Gconst: 83 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 14 	 Gconst: 14 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 66 	 Gconst: 66 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 41 	 Gconst: 41 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 54 	 Gconst: 54 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 66 	 Gconst: 66 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 20 	 Gconst: 20 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 36 	 Gconst: 36 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 98 	 Gconst: 98 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 93 	 Gconst: 93 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 36 	 Gconst: 36 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 32 	 Gconst: 32 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 91 	 Gconst: 91 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 36 	 Gconst: 36 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 68 	 Gconst: 68 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 76 	 Gconst: 76 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 88 	 Gconst: 88 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 54 	 Gconst: 54 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 72 	 Gconst: 72 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 78 	 Gconst: 78 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 13 	 Gconst: 13 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 50 	 Gconst: 50 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 19 	 Gconst: 19 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 116 	 Gconst: 116 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 70 	 Gconst: 70 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 64 	 Gconst: 64 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 50 	 Gconst: 50 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 65 	 Gconst: 65 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 74 	 Gconst: 74 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 72 	 Gconst: 72 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 83 	 Gconst: 83 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 63 	 Gconst: 63 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 15 	 Gconst: 15 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 41 	 Gconst: 41 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 74 	 Gconst: 74 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 89 	 Gconst: 89 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 50 	 Gconst: 50 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 91 	 Gconst: 91 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 25 	 Gconst: 25 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 29 	 Gconst: 29 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 59 	 Gconst: 59 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 34 	 Gconst: 34 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 100 	 Gconst: 100 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 59 	 Gconst: 59 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 50 	 Gconst: 50 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 56 	 Gconst: 56 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 82 	 Gconst: 82 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 60 	 Gconst: 60 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 103 	 Gconst: 103 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 61 	 Gconst: 61 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 55 	 Gconst: 55 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 82 	 Gconst: 82 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 31 	 Gconst: 31 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 82 	 Gconst: 82 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 44 	 Gconst: 44 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 80 	 Gconst: 80 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 42 	 Gconst: 42 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 89 	 Gconst: 89 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 70 	 Gconst: 70 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 48 	 Gconst: 48 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 33 	 Gconst: 33 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 39 	 Gconst: 39 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 58 	 Gconst: 58 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 77 	 Gconst: 77 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 32 	 Gconst: 32 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 91 	 Gconst: 91 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 24 	 Gconst: 24 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 32 	 Gconst: 32 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 74 	 Gconst: 74 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 66 	 Gconst: 66 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 61 	 Gconst: 61 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 48 	 Gconst: 48 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 67 	 Gconst: 67 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 71 	 Gconst: 71 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 42 	 Gconst: 42 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 63 	 Gconst: 63 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 94 	 Gconst: 94 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 67 	 Gconst: 67 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 72 	 Gconst: 72 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 62 	 Gconst: 62 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 54 	 Gconst: 54 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 44 	 Gconst: 44 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 84 	 Gconst: 84 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 62 	 Gconst: 62 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 66 	 Gconst: 66 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 88 	 Gconst: 88 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 52 	 Gconst: 52 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 69 	 Gconst: 69 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 82 	 Gconst: 82 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 86 	 Gconst: 86 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 61 	 Gconst: 61 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 60 	 Gconst: 60 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 60 	 Gconst: 60 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 88 	 Gconst: 88 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 39 	 Gconst: 39 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 55 	 Gconst: 55 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 68 	 Gconst: 68 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 74 	 Gconst: 74 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 68 	 Gconst: 68 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 44 	 Gconst: 44 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 61 	 Gconst: 61 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 83 	 Gconst: 83 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 48 	 Gconst: 48 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 32 	 Gconst: 32 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 34 	 Gconst: 34 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 83 	 Gconst: 83 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 80 	 Gconst: 80 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 60 	 Gconst: 60 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 101 	 Gconst: 101 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 77 	 Gconst: 77 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 77 	 Gconst: 77 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 81 	 Gconst: 81 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 56 	 Gconst: 56 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 68 	 Gconst: 68 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 79 	 Gconst: 79 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 100 	 Gconst: 100 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 36 	 Gconst: 36 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 56 	 Gconst: 56 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 37 	 Gconst: 37 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 30 	 Gconst: 30 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 73 	 Gconst: 73 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 34 	 Gconst: 34 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 31 	 Gconst: 31 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 23 	 Gconst: 23 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 92 	 Gconst: 92 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 56 	 Gconst: 56 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 63 	 Gconst: 63 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 71 	 Gconst: 71 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 96 	 Gconst: 96 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 55 	 Gconst: 55 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 74 	 Gconst: 74 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 93 	 Gconst: 93 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 33 	 Gconst: 33 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 70 	 Gconst: 70 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 61 	 Gconst: 61 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 93 	 Gconst: 93 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 72 	 Gconst: 72 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 52 	 Gconst: 52 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 78 	 Gconst: 78 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 64 	 Gconst: 64 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 60 	 Gconst: 60 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 64 	 Gconst: 64 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 36 	 Gconst: 36 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 62 	 Gconst: 62 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 56 	 Gconst: 56 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 43 	 Gconst: 43 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 77 	 Gconst: 77 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 89 	 Gconst: 89 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 82 	 Gconst: 82 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 95 	 Gconst: 95 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 56 	 Gconst: 56 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 100 	 Gconst: 100 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 75 	 Gconst: 75 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 84 	 Gconst: 84 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 38 	 Gconst: 38 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 71 	 Gconst: 71 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 75 	 Gconst: 75 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 47 	 Gconst: 47 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 103 	 Gconst: 103 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 71 	 Gconst: 71 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 39 	 Gconst: 39 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 68 	 Gconst: 68 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 46 	 Gconst: 46 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 100 	 Gconst: 100 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 32 	 Gconst: 32 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 40 	 Gconst: 40 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 90 	 Gconst: 90 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 80 	 Gconst: 80 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 50 	 Gconst: 50 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 34 	 Gconst: 34 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 89 	 Gconst: 89 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 97 	 Gconst: 97 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 61 	 Gconst: 61 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 38 	 Gconst: 38 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 75 	 Gconst: 75 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 86 	 Gconst: 86 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 31 	 Gconst: 31 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 79 	 Gconst: 79 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 72 	 Gconst: 72 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 90 	 Gconst: 90 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 83 	 Gconst: 83 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 15 	 Gconst: 15 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 42 	 Gconst: 42 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 79 	 Gconst: 79 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 36 	 Gconst: 36 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 65 	 Gconst: 65 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 66 	 Gconst: 66 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 37 	 Gconst: 37 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 44 	 Gconst: 44 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 67 	 Gconst: 67 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 77 	 Gconst: 77 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 44 	 Gconst: 44 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 66 	 Gconst: 66 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 34 	 Gconst: 34 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 95 	 Gconst: 95 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 42 	 Gconst: 42 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 76 	 Gconst: 76 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 95 	 Gconst: 95 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 110 	 Gconst: 110 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 62 	 Gconst: 62 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 56 	 Gconst: 56 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 80 	 Gconst: 80 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 72 	 Gconst: 72 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 77 	 Gconst: 77 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 87 	 Gconst: 87 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 76 	 Gconst: 76 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 59 	 Gconst: 59 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 41 	 Gconst: 41 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 26 	 Gconst: 26 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 73 	 Gconst: 73 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 79 	 Gconst: 79 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 60 	 Gconst: 60 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 58 	 Gconst: 58 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 20 	 Gconst: 20 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 64 	 Gconst: 64 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 63 	 Gconst: 63 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 68 	 Gconst: 68 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 60 	 Gconst: 60 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 50 	 Gconst: 50 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 48 	 Gconst: 48 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 63 	 Gconst: 63 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 68 	 Gconst: 68 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 33 	 Gconst: 33 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 40 	 Gconst: 40 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 52 	 Gconst: 52 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 42 	 Gconst: 42 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 47 	 Gconst: 47 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 90 	 Gconst: 90 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 80 	 Gconst: 80 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 79 	 Gconst: 79 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 43 	 Gconst: 43 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 111 	 Gconst: 111 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 63 	 Gconst: 63 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 90 	 Gconst: 90 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 80 	 Gconst: 80 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 44 	 Gconst: 44 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 39 	 Gconst: 39 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 90 	 Gconst: 90 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 110 	 Gconst: 110 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 30 	 Gconst: 30 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 93 	 Gconst: 93 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 61 	 Gconst: 61 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 36 	 Gconst: 36 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 73 	 Gconst: 73 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 31 	 Gconst: 31 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 63 	 Gconst: 63 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 111 	 Gconst: 111 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 71 	 Gconst: 71 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 80 	 Gconst: 80 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 17 	 Gconst: 17 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 69 	 Gconst: 69 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 95 	 Gconst: 95 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 73 	 Gconst: 73 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 42 	 Gconst: 42 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 94 	 Gconst: 94 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 71 	 Gconst: 71 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 85 	 Gconst: 85 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 43 	 Gconst: 43 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 52 	 Gconst: 52 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 81 	 Gconst: 81 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 67 	 Gconst: 67 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 72 	 Gconst: 72 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 107 	 Gconst: 107 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 47 	 Gconst: 47 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 78 	 Gconst: 78 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 61 	 Gconst: 61 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 74 	 Gconst: 74 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 53 	 Gconst: 53 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 89 	 Gconst: 89 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 39 	 Gconst: 39 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 28 	 Gconst: 28 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 60 	 Gconst: 60 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 76 	 Gconst: 76 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 76 	 Gconst: 76 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 48 	 Gconst: 48 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 50 	 Gconst: 50 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 20 	 Gconst: 20 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 71 	 Gconst: 71 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 40 	 Gconst: 40 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 83 	 Gconst: 83 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 59 	 Gconst: 59 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 48 	 Gconst: 48 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 81 	 Gconst: 81 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 93 	 Gconst: 93 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 38 	 Gconst: 38 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 93 	 Gconst: 93 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 61 	 Gconst: 61 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 74 	 Gconst: 74 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 77 	 Gconst: 77 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 30 	 Gconst: 30 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 113 	 Gconst: 113 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 63 	 Gconst: 63 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 40 	 Gconst: 40 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 48 	 Gconst: 48 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 52 	 Gconst: 52 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 83 	 Gconst: 83 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 43 	 Gconst: 43 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 74 	 Gconst: 74 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 92 	 Gconst: 92 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 64 	 Gconst: 64 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 66 	 Gconst: 66 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 31 	 Gconst: 31 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 99 	 Gconst: 99 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 47 	 Gconst: 47 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 81 	 Gconst: 81 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 63 	 Gconst: 63 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 40 	 Gconst: 40 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 39 	 Gconst: 39 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 47 	 Gconst: 47 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 90 	 Gconst: 90 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 88 	 Gconst: 88 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 71 	 Gconst: 71 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 43 	 Gconst: 43 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 97 	 Gconst: 97 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 95 	 Gconst: 95 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 110 	 Gconst: 110 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 64 	 Gconst: 64 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 31 	 Gconst: 31 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 44 	 Gconst: 44 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 35 	 Gconst: 35 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 11 	 Gconst: 11 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 69 	 Gconst: 69 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 69 	 Gconst: 69 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 38 	 Gconst: 38 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 79 	 Gconst: 79 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 88 	 Gconst: 88 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 63 	 Gconst: 63 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 80 	 Gconst: 80 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 101 	 Gconst: 101 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 49 	 Gconst: 49 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 69 	 Gconst: 69 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 90 	 Gconst: 90 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 64 	 Gconst: 64 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 82 	 Gconst: 82 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 43 	 Gconst: 43 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 67 	 Gconst: 67 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 107 	 Gconst: 107 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 85 	 Gconst: 85 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 47 	 Gconst: 47 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 51 	 Gconst: 51 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 98 	 Gconst: 98 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 55 	 Gconst: 55 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 46 	 Gconst: 46 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 46 	 Gconst: 46 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 32 	 Gconst: 32 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 70 	 Gconst: 70 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 33 	 Gconst: 33 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 69 	 Gconst: 69 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 44 	 Gconst: 44 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 100 	 Gconst: 100 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 89 	 Gconst: 89 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 55 	 Gconst: 55 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 86 	 Gconst: 86 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 44 	 Gconst: 44 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 100 	 Gconst: 100 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 83 	 Gconst: 83 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 68 	 Gconst: 68 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 69 	 Gconst: 69 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 43 	 Gconst: 43 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 42 	 Gconst: 42 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 76 	 Gconst: 76 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 75 	 Gconst: 75 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 75 	 Gconst: 75 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 109 	 Gconst: 109 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 36 	 Gconst: 36 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 84 	 Gconst: 84 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 70 	 Gconst: 70 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 48 	 Gconst: 48 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 80 	 Gconst: 80 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 62 	 Gconst: 62 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 47 	 Gconst: 47 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 69 	 Gconst: 69 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 96 	 Gconst: 96 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 83 	 Gconst: 83 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 114 	 Gconst: 114 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 105 	 Gconst: 105 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 58 	 Gconst: 58 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 58 	 Gconst: 58 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 35 	 Gconst: 35 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 84 	 Gconst: 84 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 86 	 Gconst: 86 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 84 	 Gconst: 84 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 68 	 Gconst: 68 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 57 	 Gconst: 57 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 100 	 Gconst: 100 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 74 	 Gconst: 74 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 47 	 Gconst: 47 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 61 	 Gconst: 61 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 108 	 Gconst: 108 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 39 	 Gconst: 39 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 86 	 Gconst: 86 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 83 	 Gconst: 83 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 55 	 Gconst: 55 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 79 	 Gconst: 79 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 22 	 Gconst: 22 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 68 	 Gconst: 68 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 76 	 Gconst: 76 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 45 	 Gconst: 45 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 64 	 Gconst: 64 
 FAILED: current hand treasure differs from expected
 
-G supplyCount: -616956963 	 Gconst: -616956963 
+G supplyCount: 46 	 Gconst: 46 
 FAILED: current hand treasure differs from expected
 
 File 'randomtestadventurer.c'
-Lines executed:69.70% of 66
+Lines executed:71.01% of 69
 Creating 'randomtestadventurer.c.gcov'
 
 File 'dominion.c'

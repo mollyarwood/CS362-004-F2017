@@ -53,30 +53,30 @@
         1:   48:	printf("\n\n-------------Testing Council Room--------------\n\n");
         -:   49:
         -:   50:	//initialize game
-    11001:   51:	for (i = 0; i < 11000; i++) {
-289311000:   52:		for (j=0; j < sizeof(struct gameState); j++) {
-289300000:   53:			((char*)&G)[i] = floor(rand() % 256);
+    20001:   51:	for (i = 0; i < 20000; i++) {
+526020000:   52:		for (j=0; j < sizeof(struct gameState); j++) {
+526000000:   53:			((char*)&G)[i] = floor(rand() % 256);
         -:   54:		}
         -:   55:	
         -:   56:		//General
-    11000:   57:		G.playedCardCount = floor(rand() % 500);
-    11000:   58:		G.numPlayers = 2;
+    20000:   57:		G.playedCardCount = floor(rand() % 500);
+    20000:   58:		G.numPlayers = 2;
         -:   59:
         -:   60:		//player 1
-    11000:   61:		G.whoseTurn = currPlayer;
-    11000:   62:		G.handCount[currPlayer] = floor(rand() % 500);
-    11000:   63:		G.deckCount[currPlayer] = floor(rand() % 500);
-    11000:   64:		G.discardCount[currPlayer] = floor(rand() % 500);
+    20000:   61:		G.whoseTurn = currPlayer;
+    20000:   62:		G.handCount[currPlayer] = floor(rand() % 500);
+    20000:   63:		G.deckCount[currPlayer] = floor(rand() % 500);
+    20000:   64:		G.discardCount[currPlayer] = floor(rand() % 500);
         -:   65:
         -:   66:		//player 2
-    11000:   67:		G.handCount[currPlayer + 1] = floor(rand() % 500);
-    11000:   68:		G.deckCount[currPlayer + 1] = floor(rand() % 500);
-    11000:   69:		G.discardCount[currPlayer + 1] = floor(rand() % 500);
+    20000:   67:		G.handCount[currPlayer + 1] = floor(rand() % 500);
+    20000:   68:		G.deckCount[currPlayer + 1] = floor(rand() % 500);
+    20000:   69:		G.discardCount[currPlayer + 1] = floor(rand() % 500);
         -:   70:
         -:   71:
         -:   72:		//play great hall card
-    11000:   73:		memcpy(&Gconst, &G, sizeof(struct gameState));
-    11000:   74:		councilRoomEffect(currPlayer, &G, 0);
+    20000:   73:		memcpy(&Gconst, &G, sizeof(struct gameState));
+    20000:   74:		councilRoomEffect(currPlayer, &G, 0);
         -:   75:		//cardEffect(council_room, -1, -1, -1, &G, 0, &coin_bonus);
         -:   76:
         -:   77:		if (ADDBUGS) {
@@ -88,10 +88,10 @@
         -:   83:			addbugs(currPlayer + 1, &G);
         -:   84:		}
         -:   85:
-    11000:   86:		checkResults(&G, &Gconst, &passed);	
+    20000:   86:		checkResults(&G, &Gconst, &passed);	
         -:   87:	}
         1:   88:	if (passed) {
-        1:   89:		printf("All Tests Passed \n\n");
+    #####:   89:		printf("All Tests Passed \n\n");
         -:   90:	}
         -:   91:
         -:   92:
@@ -102,32 +102,32 @@
         -:   97:
         -:   98:
         -:   99:
-    11000:  100:void checkResults(struct gameState *G, struct gameState *Gconst, int *passed) {
+    20000:  100:void checkResults(struct gameState *G, struct gameState *Gconst, int *passed) {
         -:  101:
-    11000:  102:	int currPlayer = whoseTurn(G);
-    11000:  103:	int player2 = currPlayer + 1;
+    20000:  102:	int currPlayer = whoseTurn(G);
+    20000:  103:	int player2 = currPlayer + 1;
         -:  104:
         -:  105:	/**********************************
         -:  106:	 *Direct Tests
         -:  107:	 *********************************/
         -:  108:
         -:  109:	//hand count decreases by 3 (one discarded, 4 drawn)
-    11000:  110:	if (G->handCount[currPlayer] != Gconst->handCount[currPlayer] + 3) {
-    #####:  111:		printf("G handCount: %d \t Gconst: %d \n", G->handCount[currPlayer], Gconst->handCount[currPlayer]);
-    #####:  112:		printf("FAILED: current hand count increased by 3 \n\n");
-    #####:  113:		*passed = 0;
+    20000:  110:	if (G->handCount[currPlayer] != Gconst->handCount[currPlayer] + 3) {
+        2:  111:		printf("G handCount: %d \t Gconst: %d \n", G->handCount[currPlayer], Gconst->handCount[currPlayer]);
+        2:  112:		printf("FAILED: current hand count increased by 3 \n\n");
+        2:  113:		*passed = 0;
         -:  114:	}
         -:  115:
         -:  116:
         -:  117:	//deck count decreased by 4
-    11000:  118:	if (G->deckCount[currPlayer] != Gconst->deckCount[currPlayer] - 4 && Gconst->deckCount[currPlayer] > 3) {
+    20000:  118:	if (G->deckCount[currPlayer] != Gconst->deckCount[currPlayer] - 4 && Gconst->deckCount[currPlayer] > 3) {
     #####:  119:		printf("FAILED: deck count decreased by 4\n\n");
     #####:  120:		*passed = 0;
         -:  121:	}
         -:  122:
         -:  123:
         -:  124:	//player's buys increased by one
-    11000:  125:	if (G->numBuys != Gconst->numBuys + 1) {
+    20000:  125:	if (G->numBuys != Gconst->numBuys + 1) {
     #####:  126:		printf("FAILED: number of buys increased by 1\n\n");
     #####:  127:		*passed = 0;
         -:  128:	}
@@ -138,25 +138,25 @@
         -:  133:	 *********************************/
         -:  134:	
         -:  135:	//handCount comparison
-    11000:  136:	if (G->handCount[player2] != Gconst->handCount[player2] + 1) {
+    20000:  136:	if (G->handCount[player2] != Gconst->handCount[player2] + 1) {
     #####:  137:		printf("FAILED other player's handCount did not increase\n");
     #####:  138:		*passed = 0;
         -:  139:	}
         -:  140:
         -:  141:
         -:  142:	//deck comparision
-    11000:  143:	if (G->deckCount[player2] == Gconst->deckCount[player2] && Gconst->deckCount[player2] != 0) {
+    20000:  143:	if (G->deckCount[player2] == Gconst->deckCount[player2] && Gconst->deckCount[player2] != 0) {
     #####:  144:		printf("FAILED: other player's deckCount altered\n");
     #####:  145:		*passed = 0;
         -:  146:	}
         -:  147:
         -:  148:	//discard count
-    11000:  149:	if (G->discardCount[player2] != Gconst->discardCount[player2] && Gconst->deckCount[player2] != 0) {
+    20000:  149:	if (G->discardCount[player2] != Gconst->discardCount[player2] && Gconst->deckCount[player2] != 0) {
     #####:  150:		printf("FAILED: other player's discardCount altered\n");
     #####:  151:		*passed = 0;
         -:  152:	}
         -:  153:
-    11000:  154:}
+    20000:  154:}
         -:  155:
         -:  156:
     #####:  157:void addbugs(int player, struct gameState *G) {
