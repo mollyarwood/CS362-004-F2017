@@ -113,9 +113,9 @@
         -:  108:
         -:  109:	//hand count decreases by 3 (one discarded, 4 drawn)
     20000:  110:	if (G->handCount[currPlayer] != Gconst->handCount[currPlayer] + 3) {
-        2:  111:		printf("G handCount: %d \t Gconst: %d \n", G->handCount[currPlayer], Gconst->handCount[currPlayer]);
-        2:  112:		printf("FAILED: current hand count increased by 3 \n\n");
-        2:  113:		*passed = 0;
+        1:  111:		printf("G handCount: %d \t Gconst: %d \n", G->handCount[currPlayer], Gconst->handCount[currPlayer]);
+        1:  112:		printf("FAILED: current hand count increased by 3 \n\n");
+        1:  113:		*passed = 0;
         -:  114:	}
         -:  115:
         -:  116:
