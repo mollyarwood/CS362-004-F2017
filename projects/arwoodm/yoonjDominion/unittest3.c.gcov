@@ -1,0 +1,72 @@
+        -:    0:Source:unittest3.c
+        -:    0:Graph:unittest3.gcno
+        -:    0:Data:unittest3.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/************************************************
+        -:    2: * Name: Molly Arwood
+        -:    3: * Date: 10-11-17
+        -:    4: * Class: CS_362_SE2
+        -:    5: * unittest3.c - whoseTurn Test
+        -:    6:************************************************/
+        -:    7:
+        -:    8:
+        -:    9:#include "dominion.h"
+        -:   10:#include "dominion_helpers.h"
+        -:   11:#include <string.h>
+        -:   12:#include <stdio.h>
+        -:   13:#include <assert.h>
+        -:   14:#include "rngs.h"
+        -:   15:#include <stdlib.h>
+        -:   16:#include <time.h>
+        -:   17:
+        -:   18://constants and prototypes
+        -:   19:void checkState(int stateReturned);
+        -:   20:
+        -:   21:
+        1:   22:int main() {
+        -:   23:
+        -:   24:	/*********************************************
+        -:   25:	//Initial Setup
+        -:   26:	*********************************************/
+        -:   27:	struct gameState G;
+        1:   28:	srand(time(NULL));
+        1:   29:	int r = rand() % 100000000;
+        1:   30:	int numPlayers = 2;
+        1:   31:	int i = 0;
+        1:   32:	int k[10] = {adventurer, great_hall, council_room, village, minion, mine, 
+        -:   33:		   		cutpurse, sea_hag, treasure_map, smithy};
+        -:   34:
+        -:   35:	//initialize game
+        1:   36:	initializeGame(numPlayers, k, r, &G);
+        1:   37:	printf("\n\n-------------Testing whoseTurn --------------\n\n");
+        -:   38:
+        -:   39:
+        -:   40:	/*********************************************
+        -:   41:	//Testing
+        -:   42:	*********************************************/
+        1:   43:	int errFlag = 0;
+        -:   44:
+       11:   45:	for (i = 0; i < 10; i++) {
+        -:   46:
+       10:   47:		G.whoseTurn = i;
+        -:   48:
+       10:   49:		if (whoseTurn(&G) != i) {
+    #####:   50:			errFlag = 1;
+        -:   51:		}
+        -:   52:	}
+        -:   53:
+        1:   54:	if (!errFlag) {
+        1:   55:		printf("PASSED: Correct players returned during testing\n\n");
+        -:   56:	}
+        -:   57:	else {
+    #####:   58:		printf("FAILED: Incorrect players returned during testing\n\n");
+        -:   59:	}
+        -:   60:
+        -:   61:
+        -:   62:
+        1:   63:	printf("\n\n");
+        1:   64:	return 0;
+        -:   65:
+        -:   66:
+        -:   67:}
