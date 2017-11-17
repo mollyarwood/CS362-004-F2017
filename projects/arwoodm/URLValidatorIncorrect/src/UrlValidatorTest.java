@@ -231,6 +231,8 @@ public class UrlValidatorTest extends TestCase {
 			   					new ResultPair("docs.google.com", true),
 			   					new ResultPair("www.80:1:30", false),
 			   					new ResultPair("255.255.255.255", true),
+			   					new ResultPair("255.255.255.256", false),
+			   					new ResultPair("1.10.280.255", false),
 			   					new ResultPair("1.1.1", false)};
 	   
 	   ResultPair[] path = {new ResultPair("/path", true),
