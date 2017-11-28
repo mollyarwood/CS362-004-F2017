@@ -41,24 +41,123 @@ public class UrlValidatorTest extends TestCase {
    public void testManualTest()
    {
 	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
-	   /*System.out.println(urlVal.isValid("http://www.amazon.com")); //returns true -good
-	   System.out.println(urlVal.isValid("http://goog>le.com/search"));  //returns false -good
-	   System.out.println(urlVal.isValid("http:/amazon.com"));  //returns false -good
-	   System.out.println(urlVal.isValid("://amazon.com"));  //returns false -good
-	   System.out.println(urlVal.isValid("4htp://www.amazon.com")); //returns false -good
-	   System.out.println(urlVal.isValid("http://amazon.com/.."));  //returns false -good
-	   System.out.println(urlVal.isValid("http://amazon.com/$hey"));  //returns true -good
-	   System.out.println(urlVal.isValid("http://amazon.com/here?/"));  //returns false -good
-	   System.out.println(urlVal.isValid("http://www.amazon.com:-1")); //returns false -good
-	   System.out.println(urlVal.isValid("http://www.amazon.com:80")); //returns true -good
-	   System.out.println(urlVal.isValid("http://amazon.com/path//"));  //returns false -good
-	   */
-	   //can't find the bug here???
+	   System.out.println("Manual URL Testing\n");
+	   
+	   System.out.println(urlVal.isValid("http://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("https://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.555.com")); //expected: true
+	   System.out.println(urlVal.isValid("http://goog>le.com/search"));  //expected: false
+	   System.out.println(urlVal.isValid("http:/amazon.com"));  //expected: false
+	   System.out.println(urlVal.isValid("://amazon.com"));  //expected: false
+	   System.out.println(urlVal.isValid("5htp://www.amazon.com")); //expected: false
+	   System.out.println(urlVal.isValid("http://amazon.com/..")); 
+	   System.out.println(urlVal.isValid("http://www.amazon.com/?")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com/?$#")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com/?action=view")); //expected: true
+	   System.out.println(urlVal.isValid("http://amazon.com/$hey")); 
+	   System.out.println(urlVal.isValid("http://amazon.com/here?/"));  //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com:-1")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com:10")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com:9999")); //expected: true
+	   System.out.println(urlVal.isValid("http://amazon.com/path//")); //expected: false
+	   
+
+   }
+   
+   public void testYourFirstPartitionManual() {
+	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   System.out.println("\n\n Manual Scheme Testing\n");
+	   
+	   System.out.println(urlVal.isValid("ahttp://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("zhttp://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("Zhttp://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("mhttp://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("Mhttp://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("0http://www.amazon.com")); //expected: false
+	   System.out.println(urlVal.isValid("99http://www.amazon.com")); //expected: false
+	   System.out.println(urlVal.isValid("h+++ttp://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("h---ttp://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("h...ttp://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("h!!!ttp://www.amazon.com")); //expected: false
+	   System.out.println(urlVal.isValid("h99ttp://www.amazon.com")); //expected: true
+
+   }
+   
+   public void testYourSecondPartitionManual() {
+	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   System.out.println("\n\n Manual Authority Testing\n");
+	   
+	   System.out.println(urlVal.isValid("http://www.utk.edu"));	//expected: true
+	   System.out.println(urlVal.isValid("http://www/utk/edu"));	//expected: false
+	   System.out.println(urlVal.isValid("http://www.hello-world.com")); //expected: true
+	   System.out.println(urlVal.isValid("http://www-hello-world-com")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.---.com")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.--")); //expected: false
+	   System.out.println(urlVal.isValid("http://.hello")); //expected: false
+	   System.out.println(urlVal.isValid("http://docs.google.com")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.80:1:30")); //expected: false
+	   System.out.println(urlVal.isValid("http://255.255.255.255")); //expected: true
+	   System.out.println(urlVal.isValid("http://255.255.255.256")); //expected: false
+	   System.out.println(urlVal.isValid("http://1.10.280.255")); //expected: false
+	   System.out.println(urlVal.isValid("http://1.1.1")); //expected: false
+	   
+   }
+   
+   
+   public void testYourThirdPartitionManual() {
+	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   System.out.println("\n\n Manual Port Testing\n");
+	   
+	   System.out.println(urlVal.isValid("http://www.amazon.com:0")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com:1")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com:-1")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com:-99999")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com:1000")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com:999")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com:99999")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com:555")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com:!$%")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com:test")); //expected: false
+
+   }
+   
+   
+   public void testYourFourthPartitionManual() {
+	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   System.out.println("\n\n Manual Path Testing\n");
+	   
+	   System.out.println(urlVal.isValid("http://www.amazon.com/path22")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.comb.32")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com//path")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com/path/here")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com/path/here#")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com/9path")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com/path//here")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com/path \\n /here")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com/../")); //expected: false
+	   System.out.println(urlVal.isValid("http://www.amazon.com:")); //expected: false
+
+	   
+   }
+   
+   
+   public void testYourFifthPartitionManual() {
+	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   System.out.println("\n\n Manual Query Testing\n");
+	   
+	   System.out.println(urlVal.isValid("http://www.amazon.com?query=hey&what=up")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com?q=1,2,3")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com?q=1;2;3")); //expected: true
+	   System.out.println(urlVal.isValid("http://www.amazon.com:::")); //expected; false
+	   
+	   
    }
    
    
    public void testYourFirstPartitionProgrammatic(ResultPair[] scheme)
    {
+	   System.out.println("\n\n Programmatic Testing \n");
 	   UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
 	   String authority = "www.amazon.com";
 	   String url;
@@ -164,7 +263,6 @@ public class UrlValidatorTest extends TestCase {
 	   boolean validity;
 	   boolean result;
 	   
-	  //O(n^5)...should i write it differently??
 	  //scheme
 	  for (int i = 0; i < testObjects[0].length; i++) {
 		  //authority
@@ -205,6 +303,16 @@ public class UrlValidatorTest extends TestCase {
    public static void main(String[] args) {
 	
 	   UrlValidatorTest tester = new UrlValidatorTest("test1");
+	   
+	   //manual tests
+	   tester.testManualTest();
+	   tester.testYourFirstPartitionManual();
+	   tester.testYourSecondPartitionManual();
+	   tester.testYourThirdPartitionManual();
+	   tester.testYourFourthPartitionManual();
+	   tester.testYourFifthPartitionManual();
+	   
+	   
 	   
 	   ResultPair[] scheme = {new ResultPair("http://", true),
 			   					new ResultPair("https://", true),
@@ -277,7 +385,7 @@ public class UrlValidatorTest extends TestCase {
 	   
 	   ResultPair[][] testObjects = {scheme, authority, port, path, query};
 	   long ALLOW_ALL_SCHEMES = 1 << 0;
-	   //tester.testIsValid(testObjects, ALLOW_ALL_SCHEMES);
+	   tester.testIsValid(testObjects, ALLOW_ALL_SCHEMES);
 	   
    }
    
